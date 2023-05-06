@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34BDE0"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".splashScreen">
+
+    <TextView
+        android:layout_width="287dp"
+        android:layout_height="292dp"
+        android:background="@drawable/tictactoeicon"
+        android:textColor="#3C04A0"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TicTACToe"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:paddingTop="30dp"
+        android:textColor="#ED7A46"/>
+
+
+</LinearLayout>
